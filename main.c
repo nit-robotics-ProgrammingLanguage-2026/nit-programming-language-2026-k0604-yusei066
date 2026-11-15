@@ -2,7 +2,7 @@
 
 int main(void) {
     int nyuuryoku;
-    long s = 0;
+    long sum = 0;
 
     scanf("%d", &nyuuryoku);
 
