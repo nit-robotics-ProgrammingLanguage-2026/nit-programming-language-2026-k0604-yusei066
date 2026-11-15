@@ -11,15 +11,15 @@ int main(void) {
         return 0;
     }
 
-    for (int i = 1; ; i++) { 
-        if (i > a) {
+    for (int number = 1; ; number++) { 
+        if (number > a) {
             break;
         }
-        if (i % 3 == 0 || i % 5 == 0) /*3の倍数と5の倍数を除外*/
+        if (number % 3 == 0 || number    % 5 == 0) /*3の倍数と5の倍数を除外*/
         {
             continue;
         }
-        s += i;
+        s += number;
     }
 
     printf("%ld\n", s); /*65536以上の数字にも対応*/
