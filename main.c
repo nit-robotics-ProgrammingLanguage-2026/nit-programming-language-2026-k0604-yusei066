@@ -19,10 +19,10 @@ int main(void) {
         {
             continue;
         }
-        s += number;
+        sum += number;
     }
 
-    printf("%ld\n", s); /*65536以上の数字にも対応*/
+    printf("%ld\n", sum); /*65536以上の数字にも対応*/
 
     return 0;
 }
